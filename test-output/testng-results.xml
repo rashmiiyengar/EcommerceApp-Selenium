@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-25T02:18:48 IST" name="Suite" finished-at="2023-08-25T02:19:36 IST" duration-ms="47597">
+    <groups>
+      <group name="Purchase">
+        <method signature="StandAloneTest.submitOrder(java.util.HashMap)[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" name="submitOrder" class="FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest"/>
+      </group> <!-- Purchase -->
+      <group name="errorhandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" name="LoginErrorValidation" class="FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest"/>
+      </group> <!-- errorhandling -->
+    </groups>
+    <test started-at="2023-08-25T02:18:48 IST" name="Error Validation Test" finished-at="2023-08-25T02:19:25 IST" duration-ms="36757">
+      <class name="FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:18:48 IST" name="launchApp" finished-at="2023-08-25T02:18:57 IST" duration-ms="9085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="LoginErrorValidation()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:18:57 IST" name="LoginErrorValidation" finished-at="2023-08-25T02:18:58 IST" duration-ms="1117" status="SKIP">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<Incorrect email [] password.> but was:<Incorrect email [or] password.>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<Incorrect email [] password.> but was:<Incorrect email [or] password.>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest.LoginErrorValidation(ErrorValidationsTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:18:58 IST" name="closeBrowser" finished-at="2023-08-25T02:18:59 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:18:59 IST" name="launchApp" finished-at="2023-08-25T02:19:06 IST" duration-ms="7435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:19:06 IST" name="LoginErrorValidation" finished-at="2023-08-25T02:19:08 IST" duration-ms="1452" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<Incorrect email [] password.> but was:<Incorrect email [or] password.>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<Incorrect email [] password.> but was:<Incorrect email [or] password.>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest.LoginErrorValidation(ErrorValidationsTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:19:08 IST" name="closeBrowser" finished-at="2023-08-25T02:19:08 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:19:08 IST" name="launchApp" finished-at="2023-08-25T02:19:14 IST" duration-ms="5589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="productErrorValidations()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:19:14 IST" name="productErrorValidations" finished-at="2023-08-25T02:19:25 IST" duration-ms="10720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidations -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest@7241a47d]" started-at="2023-08-25T02:19:25 IST" name="closeBrowser" finished-at="2023-08-25T02:19:25 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-08-25T02:18:48 IST" name="StandAlone Test" finished-at="2023-08-25T02:19:36 IST" duration-ms="47597">
+      <class name="FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:18:49 IST" name="launchApp" finished-at="2023-08-25T02:18:59 IST" duration-ms="10035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:18:59 IST" name="submitOrder" data-provider="getData" finished-at="2023-08-25T02:19:11 IST" duration-ms="12531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, product=ADIDAS ORIGINAL, email=rashmisoundar1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:19:11 IST" name="closeBrowser" finished-at="2023-08-25T02:19:11 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:19:11 IST" name="launchApp" finished-at="2023-08-25T02:19:17 IST" duration-ms="5518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:19:17 IST" name="submitOrder" data-provider="getData" finished-at="2023-08-25T02:19:29 IST" duration-ms="11816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, product=ZARA COAT 3, email=rashmisoundar@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:19:29 IST" name="closeBrowser" finished-at="2023-08-25T02:19:29 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:19:29 IST" name="launchApp" finished-at="2023-08-25T02:19:34 IST" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:19:34 IST" name="orderHistoryTest" finished-at="2023-08-25T02:19:36 IST" depends-on-methods="FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest.submitOrder" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest@19b93fa8]" started-at="2023-08-25T02:19:36 IST" name="closeBrowser" finished-at="2023-08-25T02:19:36 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest -->
+    </test> <!-- StandAlone Test -->
+  </suite> <!-- Suite -->
+</testng-results>

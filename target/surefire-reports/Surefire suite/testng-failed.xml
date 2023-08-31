@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchApp"/>
+          <include name="orderHistoryTest"/>
+          <include name="submitOrder" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- FrameworkDesign.SeleniumFrameworkDesign.StandAloneTest -->
+      <class name="FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest">
+        <methods>
+          <include name="productErrorValidations"/>
+          <include name="LoginErrorValidation"/>
+          <include name="closeBrowser"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- FrameworkDesign.SeleniumFrameworkDesign.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
